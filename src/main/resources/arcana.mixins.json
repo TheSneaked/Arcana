@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "arcana.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ExampleMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "ItemRendererMixin"
+  ]
+}
