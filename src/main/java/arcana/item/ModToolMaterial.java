@@ -1,5 +1,6 @@
 package arcana.item;
 
+import arcana.init.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
@@ -9,10 +10,6 @@ import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial {
     DIVINE_DAGGER(0,1000,0,3,20,() -> Ingredient.ofItems(ModItems.DIVINE_DAGGER));
-
-
-
-
 
     private final int miningLevel;
     private final int ItemDurability;

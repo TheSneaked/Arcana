@@ -9,8 +9,7 @@
 
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/TheSneaked/Arcana"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/arcana/icon.png",
@@ -19,12 +18,14 @@
 		"main": [
 			"arcana.Arcana"
 		],
-
 		"client": [
 			"arcana.ArcanaClient"
 		],
 		"fabric-datagen": [
 			"arcana.ArcanaDataGenerator"
+		],
+		"cardinal-components-entity": [
+			"arcana.init.ModEntityComponents"
 		]
 	},
 	"mixins": [
@@ -35,6 +36,11 @@
 		"minecraft": "~1.21.1",
 		"java": ">=21",
 		"fabric-api": "*"
+	},
+	"custom": {
+		"cardinal-components": [
+			"arcana:arcana"
+		]
 	},
 	"suggests": {
 		"another-mod": "*"
